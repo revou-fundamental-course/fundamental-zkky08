@@ -12,7 +12,16 @@ function validateForm() {
     }
 }
 
+let indexSlide = 1;
+showSlide(1)
+
+;
 function showSlide() {
-    document.getElementsByClassName('banner-item')[0].style.display = 'none';
-    document.getElementsByClassName('banner-item')[1].style.display = 'block';
+    let bannerItems = document.getElementsByClassName('banner-item');
+    if (bannerItems.length > 1) {
+        bannerItems[0].style.display = 'none';
+        bannerItems[1].style.display = 'block';
+    } else {
+        console.error("Banner items not found or insufficient number of banner items.");
+    }
 }

@@ -26,9 +26,23 @@ nav > a{
     border: 1px solid;
 }
 
-.banner-container{
+.banner-container {
+    display: flex;
     height: 350px;
     width: 100%;
+}
+
+.banner-item {
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-1 {
+    background-image: url('../assets/banner-2.jpg');
+}
+
+.banner-2 {
+    background-image: url('../assets/banner-3.jpg');
 }
 
 .profile-content{
