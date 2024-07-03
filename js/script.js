@@ -11,17 +11,3 @@ function validateForm() {
         alert('Inputan ada yang kosong');
     }
 }
-
-let indexSlide = 1;
-showSlide(1)
-
-;
-function showSlide() {
-    let bannerItems = document.getElementsByClassName('banner-item');
-    if (bannerItems.length > 1) {
-        bannerItems[0].style.display = 'none';
-        bannerItems[1].style.display = 'block';
-    } else {
-        console.error("Banner items not found or insufficient number of banner items.");
-    }
-}

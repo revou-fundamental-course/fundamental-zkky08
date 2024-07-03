@@ -32,19 +32,6 @@ nav > a{
     width: 100%;
 }
 
-.banner-item {
-    background-size: cover;
-    background-position: center;
-}
-
-.banner-1 {
-    background-image: url('../assets/banner-2.jpg');
-}
-
-.banner-2 {
-    background-image: url('../assets/banner-3.jpg');
-}
-
 .profile-content{
     display: flex;
     justify-content: space-evenly;
