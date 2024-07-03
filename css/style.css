@@ -1,0 +1,68 @@
+
+
+main{
+    padding: 32px;
+}
+
+.nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+
+    /* For image icon */
+    background-image: url(../assets/Logo-RevoU-2.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav > a{
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid;
+}
+
+.banner-container{
+    height: 350px;
+    width: 100%;
+}
+
+.profile-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-item{
+    text-align: center;
+    /* flex: 1;
+    text-align: -webkit-center; */
+}
+
+.profile-icon{
+    width: 50px;
+    height: 50px;
+
+    /* For image icon */
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile-1{
+    background-image: url(../assets/Logo-Dummy-1.jpeg);
+}
+
+.profile-2{
+    background-image: url(../assets/Logo-Dummy-4.jpeg);
+}
+
+.profile-3{
+    background-image: url(../assets/Logo-Dummy-5.jpeg);
+}
+
+/* .divider{
+    flex: 2;
+} */
