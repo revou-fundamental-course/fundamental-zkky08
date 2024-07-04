@@ -39,8 +39,8 @@ nav > a{
 
 .profile-item{
     text-align: center;
-    /* flex: 1;
-    text-align: -webkit-center; */
+    flex: 1;
+    text-align: -webkit-center;
 }
 
 .profile-icon{
@@ -64,6 +64,12 @@ nav > a{
     background-image: url(../assets/Logo-Dummy-5.jpeg);
 }
 
-/* .divider{
+.divider{
     flex: 2;
-} */
+}
+
+@media only screen and (max-width: 520px){
+    .nav-container{
+        flex-direction: column;
+    }
+}
